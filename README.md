@@ -1,6 +1,10 @@
 # qombo
 
-A data aggregation app, using APIs and Flutter SDK (maybe with Firebase/Supabase)
+A data aggregation app, using APIs and Flutter SDK (maybe with Firebase/Supabase)  
+
+## Screenshot  
+
+![qombo-shot](https://user-images.githubusercontent.com/40769994/227733827-6768aeac-0cbb-4545-8bc1-e0fed870f242.png)
 
 ## Getting Started
 
