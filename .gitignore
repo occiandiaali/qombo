@@ -21,6 +21,11 @@ migrate_working_dir/
 # is commented out by default.
 #.vscode/
 
+# exclude all .env files
+*.env
+env.g.dart
+trial.dart
+
 # Flutter/Dart/Pub related
 **/doc/api/
 **/ios/Flutter/.last_build_id

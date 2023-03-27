@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:qombo/src/features/cryptos/presentation/graph_cryptos/graph_cryptos_screen.dart';
+import 'package:qombo/src/features/news/presentation/views/news_home.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Flutter Demo',
+      title: 'Qombo',
       theme: ThemeData(
         primarySwatch: Colors.green,
       ),
@@ -26,14 +27,7 @@ class QomboApp extends StatefulWidget {
   const QomboApp({Key? key}) : super(key: key);
   static const List<Widget> _pages = <Widget>[
     GraphCryptos(),
-    // Icon(
-    //   Icons.home,
-    //   size: 150,
-    // ),
-    Icon(
-      Icons.article,
-      size: 150,
-    ),
+    NewsHome(),
     Icon(
       Icons.work,
       size: 150,
